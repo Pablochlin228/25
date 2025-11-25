@@ -14,6 +14,7 @@ protected:
 public:
 	Transport() {}
 	Transport(double m, int y, string n, int cP, double w, double pE);
-	void Print();
+	virtual void Print();
+	virtual void Init();
 };
 
