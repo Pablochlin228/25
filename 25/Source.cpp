@@ -3,11 +3,12 @@
 #include "Car.h"
 #include "Railway.h"
 #include "AnimalDrawn.h"
-
-
-
-
-
+#include "Tanker.h"
+#include "Boat.h"
+#include "Steamship.h"
+#include "Airplane.h"
+#include "Helicopter.h"
+#include "Airship.h"
 using namespace std;
 
 int main()

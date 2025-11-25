@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClInclude Include="Air.h" />
     <ClInclude Include="Airplane.h" />
+    <ClInclude Include="Airship.h" />
     <ClInclude Include="AnimalDrawn.h" />
     <ClInclude Include="Boat.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="Ground.h" />
+    <ClInclude Include="Helicopter.h" />
     <ClInclude Include="Railway.h" />
     <ClInclude Include="Steamship.h" />
     <ClInclude Include="Tanker.h" />
@@ -142,10 +144,12 @@
   <ItemGroup>
     <ClCompile Include="Air.cpp" />
     <ClCompile Include="Airplane.cpp" />
+    <ClCompile Include="Airship.cpp" />
     <ClCompile Include="AnimalDrawn.cpp" />
     <ClCompile Include="Boat.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Helicopter.cpp" />
     <ClCompile Include="Railway.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Steamship.cpp" />
