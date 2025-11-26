@@ -19,7 +19,12 @@ int main()
 	cout << "1)Enter information about car" << endl;
 	cout << "2)Enter information about railway" << endl;
 	cout << "3)Enter information about animal drawn" << endl;
-	cout << "4)Enter information about shark" << endl;
+	cout << "4)Enter information about tanker" << endl;
+	cout << "5)Enter information about boat" << endl;
+	cout << "6)Enter information about steamship" << endl;
+	cout << "7)Enter information about airplane" << endl;
+	cout << "8)Enter information about helicopter" << endl;
+	cout << "9)Enter information about airship" << endl;
 	cout << "Your choice: ";
 	cin >> choice;
 
@@ -29,18 +34,38 @@ int main()
 		transport = new Car;
 		transport->Init();
 		break;
-	/*case 2:
-		animal = new Penguin;
-		animal->Init();
+	case 2:
+		transport = new Railway;
+		transport->Init();
 		break;
 	case 3:
-		animal = new Parrot;
-		animal->Init();
+		transport = new AnimalDrawn;
+		transport->Init();
 		break;
 	case 4:
-		animal = new Shark;
-		animal->Init();
-		break;*/
+		transport = new Tanker;
+		transport->Init();
+		break;
+	case 5:
+		transport = new Boat;
+		transport->Init();
+		break;
+	case 6:
+		transport = new Steamship;
+		transport->Init();
+		break;
+	case 7:
+		transport = new Airplane;
+		transport->Init();
+		break;
+	case 8:
+		transport = new Helicopter;
+		transport->Init();
+		break;
+	case 9:
+		transport = new Airship;
+		transport->Init();
+		break;
 	default:
 		cout << "Incorrect operation!" << endl;
 		break;
